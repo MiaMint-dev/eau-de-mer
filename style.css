@@ -99,6 +99,7 @@ body {
     margin-left: 50px;
     background-image: url('Media/Boow\ menu.png');
     background-size: cover;
+    margin-bottom: 50px;
 }
 .third-page-menu{
     display: block;
