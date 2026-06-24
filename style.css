@@ -127,7 +127,7 @@ body {
     font-weight: 800;
     margin-top: 30px;
     height: 75px;
-    margin: ;
+   padding: 20px ;
 }
 .teaser-lines-left{
     display: block;
@@ -139,6 +139,7 @@ body {
     color: white;
     font-weight: 500;
     height: 75px;
+    padding: 20px;
 }
 /*homepage countdown start*/
 .countdown {
