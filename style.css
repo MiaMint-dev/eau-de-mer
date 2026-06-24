@@ -47,7 +47,7 @@ body {
     justify-self: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    box-shadow: 0 0 5px rgb(154, 246, 223), 0 0 19px rgb(154, 246, 223);
+    box-shadow: 0 0 9px rgb(129, 214, 193), 0 0 20px rgb(162, 253, 230);
     display: block;
     overflow: hidden;
     white-space: nowrap;
@@ -101,14 +101,14 @@ body {
     background-size: cover;
 }
 .third-page-menu{
-    display: flex;
+    display: block;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     color: white;
     font-size: 24px;
     text-decoration: none;
     height: 40px;
-    width: 87px;
+    width: 111px;
     justify-self: right;
     margin-right: 50px;
     padding: 10px;
@@ -123,7 +123,7 @@ body {
     font-size: 20px;
     color: white;
     padding-right: 10px;
-    margin: 80px;
+    margin: 100px;
     font-weight: 800;
     margin-top: 30px;
 }
@@ -134,7 +134,7 @@ body {
     font-size: 20px;
     color: white;
     padding-left: 10px;
-    margin: 80px;
+    margin: 100px;
     font-weight: 500;
 }
 /*homepage countdown start*/
@@ -187,6 +187,98 @@ body {
     margin-bottom: 2PX;
 }
 /*homepage countdown end*/
+
+/*Homepage radio*/
+.radio{
+     box-shadow: 0 0 9px rgb(97, 163, 147), 0 0 20px rgb(162, 253, 230);
+    width: 600px;
+    justify-self: center;
+    margin-top: 70px;
+    margin-bottom: 40px;   
+}
+
+.radio-screen{
+    background: black;
+    width: 600px;
+    height: 100px;
+    justify-self: center;
+    display: block;
+    border: white 1px solid;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#now-playing{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;
+    color: #75dac1;
+    text-align: center;
+    justify-self: center;
+    display: block;
+    padding: 33px;
+    animation: scrollText 20s linear infinite;
+    will-change: transform;
+}
+@keyframes scrollText {
+    from {
+        transform: translateX(600px);
+    }
+    to {
+        transform: translatex(-100%);
+    }
+}
+.radio-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+}
+#preset-1{
+    background: black;
+    border: white 1px solid;
+    display: block;
+    width: 185px;
+    height: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;
+    color: #75dac1;
+    text-align: center;
+    cursor: pointer;
+}
+#preset-2{
+    background: black;
+    border: white 1px solid;
+    display: block;
+    width: 185px;
+    height: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;
+    color: #75dac1;
+    text-align: center;
+    cursor: pointer;
+}
+#preset-3{
+    background: black;
+    border: white 1px solid;
+    display: block;
+    width: 185px;
+    height: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;
+    color: #75dac1;
+    text-align: center;
+    cursor: pointer;
+}
+#blank-button{
+    background: black;
+    border: white 1px solid;
+    display: block;
+    width: 21.5px;
+    height: 38px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 21px;
+    color: #75dac1;
+    text-align: center;
+}
+/*Homepage radio*/
 .hublot-grid{
     display: grid;
     grid-template-columns: repeat(3, 300px);
