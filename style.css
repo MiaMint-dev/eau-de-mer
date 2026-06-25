@@ -195,7 +195,7 @@ body {
 
 /*Homepage radio*/
 .radio{
-     box-shadow: 0 0 9px rgb(97, 163, 147), 0 0 20px rgb(162, 253, 230);
+     box-shadow: 0 0 9px rgb(95, 150, 123), 0 0 20px rgb(96, 190, 169);
     width: 600px;
     justify-self: center;
     margin-top: 100px;
@@ -212,14 +212,22 @@ body {
     overflow: hidden;
     white-space: nowrap;
 }
+.radio-backg-text{
+    font-family: 'Courier New', Courier, monospace;
+    color: #75dac1;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    
+}
 #now-playing{
     font-family: 'Courier New', Courier, monospace;
     font-size: 23px;
-    color: #75dac1;
+    color: #83fac3;
     text-align: center;
     justify-self: center;
     display: block;
-    padding: 33px;
+    padding: 14px;
     animation: scrollText 20s linear infinite;
     will-change: transform;
 }
@@ -244,7 +252,7 @@ body {
     height: 40px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 23px;
-    color: #75dac1;
+    color: #83fac3;
     text-align: center;
     cursor: pointer;
 }
@@ -256,7 +264,7 @@ body {
     height: 40px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 23px;
-    color: #75dac1;
+    color: #83fac3;
     text-align: center;
     cursor: pointer;
 }
@@ -268,7 +276,7 @@ body {
     height: 40px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 23px;
-    color: #75dac1;
+    color: #83fac3;
     text-align: center;
     cursor: pointer;
 }
@@ -368,7 +376,7 @@ body {
 }
 /*character page end */
  a:link {
-    color: rgb(7, 6, 5);
+    color: rgb(255, 255, 255);
 }
 a:visited {
     color:rgb(255, 255, 255);
