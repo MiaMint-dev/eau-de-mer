@@ -28,18 +28,21 @@ body {
     color: white;
     background: linear-gradient(
     to bottom,
-    rgb(65, 122, 108)20%,
-    rgb(119, 223, 197) 70%,
-    rgb(102, 223, 192) 50%,
-    rgb(68, 158, 136)
+    rgb(65, 122, 108),
+    rgb(35, 155, 113) ,
+    rgb(69, 155, 135),
+    rgb(208, 205, 17) 50% ,
+   rgb(65, 122, 108),
+    rgb(35, 155, 113) ,
+    rgb(69, 155, 135)
     );
-    -webkit-text-stroke-color: rgb(45, 134, 112);
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 0.7px;
     font-size: 70px;
     border: 1px rgb(158, 255, 231) solid;
     width: 350px;
     justify-self: center;
-    font-family: "Astloch", system-ui;
+    font-family: "imbue";
     font-weight: 900;
     font-style: normal;
     box-shadow: 0px 6px 15px rgb(92, 255, 214), 0px 6px 15px rgb(125, 220, 196);
@@ -47,7 +50,10 @@ body {
     margin-bottom: 50px;
 }
 .led-board{
-    background-color: rgb(49, 91, 97);
+    background:  linear-gradient(
+    to top,
+     #343333, #1a1b1b, #151718, #343333
+    );
     border: 2.5px solid rgb(174, 174, 174);
     height: 80px;
     width: 500px;
@@ -62,7 +68,7 @@ body {
 #led-text{
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
-    color: whitesmoke;
+    color: rgb(230, 191, 20);
     text-align: center;
     display: block;
     padding: 30px;
@@ -106,7 +112,7 @@ body {
     margin-left: 50px;
     background-image: url('Media/Boow\ menu.png');
     background-size: cover;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 .third-page-menu{
     display: block;
@@ -135,7 +141,7 @@ body {
     font-weight: 800;
     margin-top: 30px;
     height: 50px;
-   
+    margin-right: 60px;
 
 }
 .teaser-lines-left{
@@ -143,7 +149,7 @@ body {
     text-align: center;
     width: 900px;
     justify-self: center;
-    
+    margin-left: 60px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 23px;
     color: black;
@@ -157,7 +163,8 @@ body {
     display:block;
     align-items: center;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 170px;
+    margin-bottom: 170px;
     background-image: url('Media/flower-1.png');
     background-position:30%;
     background-size: contain;
