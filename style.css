@@ -345,12 +345,11 @@ body {
 /*Homepage radio*/
 .hublot-grid{
     display: grid;
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: repeat(3, 250px);
     gap: 80px 10%;
     margin-top: 115px;
     justify-content: center;
-    margin-right: 50px;
-    margin-left: 50px;
+    
     
 }
 .hublot {
