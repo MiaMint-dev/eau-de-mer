@@ -345,7 +345,7 @@ body {
 /*Homepage radio*/
 .hublot-grid{
     display: grid;
-    grid-template-columns: repeat(3, 250px);
+    grid-template-columns: repeat(3, 270px);
     gap: 80px 10%;
     margin-top: 115px;
     justify-content: center;
@@ -353,15 +353,15 @@ body {
     
 }
 .hublot {
-    height: 300px;
-    width: 300px;
+    height: 270px;
+    width: 270px;
    
 }
 .under-window {
     font-family: 'Times New Roman', Times, serif;
     font-size: 22px;
     color: white;
-    margin-left: 105px;
+    margin-left: 88px;
     
 }
 /*Character page start*/
