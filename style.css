@@ -345,7 +345,7 @@ body {
 /*Homepage radio*/
 .hublot-grid{
     display: grid;
-    grid-template-columns: repeat(3, 270px);
+    grid-template-columns: repeat(3, 260px);
     gap: 80px 10%;
     margin-top: 115px;
     justify-content: center;
@@ -353,8 +353,8 @@ body {
     
 }
 .hublot {
-    height: 270px;
-    width: 270px;
+    height: 260px;
+    width: 260px;
    
 }
 .under-window {
