@@ -472,7 +472,7 @@ user-select: none;
     align-items: center;
 }
 .aric-info, .ivan-info, .ava-info, .more-info{
-    width: 3700px;
+    width: 370px;
     height: 370px;
     align-self: center;
    display: flex;
