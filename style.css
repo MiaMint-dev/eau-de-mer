@@ -461,8 +461,8 @@ user-select: none;
    
 }
 .aric-gif{
-    width: 600px;
-    height: 600px;
+    width: 570px;
+    height: 570px;
 }
 .card-content{
     text-align: center;
@@ -472,8 +472,8 @@ user-select: none;
     align-items: center;
 }
 .aric-info, .ivan-info, .ava-info, .more-info{
-    width: 400px;
-    height: 400px;
+    width: 3700px;
+    height: 370px;
     align-self: center;
    display: flex;
     background-color: white;
