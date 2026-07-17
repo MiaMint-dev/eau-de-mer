@@ -5,6 +5,7 @@ const button3 = document.getElementById('preset-3');
 const radioText = document.getElementById('now-playing');
 const volume = document.getElementById('radio-volume');
 
+if (volume) {
 volume.addEventListener('input', () => {
 
     const currentVolume = Number(volume.value);
@@ -14,7 +15,7 @@ volume.addEventListener('input', () => {
     track3.volume = currentVolume;
 
 });
-
+}
 const track1 = new Audio('preset-1.mp3');
 const track2 = new Audio('preset-1.mp3');
 const track3 = new Audio('preset-1.mp3');
@@ -66,4 +67,64 @@ button3.addEventListener('click', () => {
         track3.pause();
         radioText.textContent = "Welcome to Eau De Mer * Tune into your preffered preset";
     }});
+}
+
+const avashell = document.getElementById('ava-shell');
+const avacard = document.getElementById('ava-card');
+const avax = document.getElementById('avax');
+
+const aricshell = document.getElementById('aric-shell');
+const ariccard = document.getElementById('aric-card');
+const aricx = document.getElementById('aricx');
+
+const ivanshell = document.getElementById('Ivan-shell');
+const ivancard = document.getElementById('ivan-card');
+const ivanx = document.getElementById('ivanx');
+
+const moreshell = document.getElementById('more-shell');
+const morecard = document.getElementById('more-card');
+const morex = document.getElementById('morex');
+
+if(avashell && avacard) {
+    avashell.addEventListener("click", () => {
+        avacard.classList.remove("hidden");
+    });
+}
+if (avax && avacard) {
+    avax.addEventListener("click", () => {
+        avacard.classList.add("hidden");
+    });
+}
+
+if(aricshell && ariccard) {
+    aricshell.addEventListener("click", () => {
+        ariccard.classList.remove("hidden");
+    });
+}
+if (aricx && ariccard) {
+    aricx.addEventListener("click", () => {
+        ariccard.classList.add("hidden");
+    });
+}
+
+if (ivanshell && ivancard) {
+    ivanshell.addEventListener('click', () => {
+        ivancard.classList.remove("hidden");
+    });
+}
+if (ivanx && ivancard) {
+    ivanx.addEventListener("click", () => {
+        ivancard.classList.add("hidden");
+    });
+}
+
+if (moreshell && morecard) {
+    moreshell.addEventListener("click", () => {
+        morecard.classList.remove("hidden");
+    });
+}
+if (morex && morecard) {
+    morex.addEventListener("click", () => {
+        morecard.classList.add("hidden");
+    });
 }

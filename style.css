@@ -15,22 +15,33 @@ body {
     rgb(67, 182, 202) 
      
 );
+user-select: none;
 
 }
-
+.mostly{
+    color: rgb(124, 15, 24);
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: "imbue";
+    font-size: 45px;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0px;
+    font-weight: 1000;
+    font-style: italic;
+}
 .book-title{
     text-align: center;
     color: white;
     background: linear-gradient(
     to bottom,
-    rgb(56, 118, 129) ,
+    rgb(88, 163, 176) ,
     #54a893,
     rgb(74, 179, 197) ,
-    #3c9793 ,
-    rgb(40, 156, 160),
-    rgb(208, 205, 17) 50% ,
-    #3caaaa,
-    #4c9aa8,
+    #489b97 ,
+    rgb(53, 177, 182),
+    rgb(98, 8, 15) 50% ,
+    #39a3a3,
+    #468d9a,
     #58b1b1,
     #58bba2,
     rgb(67, 182, 202) 
@@ -39,13 +50,13 @@ body {
     -webkit-text-stroke-width: 0.7px;
     font-size: 70px;
     border: 1px rgb(158, 255, 231) solid;
-    width: 350px;
+    width: 400px;
     justify-self: center;
     font-family: "imbue";
     font-weight: 900;
     font-style: normal;
     box-shadow: 0px 6px 15px rgb(92, 255, 214), 0px 6px 15px rgb(125, 220, 196);
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 50px;
 }
 .led-board{
@@ -55,7 +66,7 @@ body {
     );
     border: 2.5px solid rgb(174, 174, 174);
     height: 80px;
-    width: 550px;
+    width: 600px;
     justify-self: center;
     margin-top: 70px;
     margin-bottom: 70px;
@@ -262,6 +273,7 @@ body {
     border: white 1px solid;
     overflow: hidden;
     white-space: nowrap;
+    
 }
 .radio-backg-text{
     font-family: 'Courier New', Courier, monospace;
@@ -330,6 +342,7 @@ body {
     color: #83fac3;
     text-align: center;
     cursor: pointer;
+    
 }
 #blank-button{
     background: black;
@@ -341,7 +354,11 @@ body {
     font-size: 21px;
     color: #75dac1;
     text-align: center;
+    background-image: url('Media/moving-sea.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 /*Homepage radio*/
 .hublot-grid{
     display: grid;
@@ -370,6 +387,7 @@ body {
     grid-template-columns: repeat(2, 450px);
     justify-content: center;
     justify-items: center;
+    user-select: none;
 }
 .shell-1{
     color: white;
@@ -423,6 +441,46 @@ body {
     text-align: center;
     color: white;
     font-weight: 900;
+}
+.hidden{
+   display: none !important; 
+}
+.avacard,
+.ariccard,
+.ivancard,
+.morecard {
+   position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.card-content{
+    text-align: center;
+     display: flex;
+    flex-direction: column;
+    position: fixed;
+    align-items: center;
+}
+.aric-info, .ivan-info, .ava-info, .more-info{
+    width: 250px;
+    height: 250px;
+    align-self: center;
+   display: flex;
+    background-color: white;
+    flex-direction: column;
+    position: fixed;
+    margin-top: 85px;
+    
+}
+#aricx, #ivanx, #avax, #morex{
+    position: fixed;
 }
 /*character page end */
  a:link {
