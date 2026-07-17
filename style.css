@@ -460,7 +460,7 @@ user-select: none;
     align-items: center;
    
 }
-.aric-gif{
+.aric-gif, .ivan-gif, .ava-gif, .more-gif {
     width: 570px;
     height: 570px;
 }
