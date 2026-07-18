@@ -362,7 +362,7 @@ user-select: none;
 /*Homepage radio*/
 .hublot-grid{
     display: grid;
-    grid-template-columns: repeat(3, 260px);
+    grid-template-columns: repeat(3, 320px);
     gap: 80px 10%;
     margin-top: 115px;
     justify-content: center;
@@ -370,15 +370,15 @@ user-select: none;
     
 }
 .hublot {
-    height: 260px;
-    width: 260px;
+    height: 320px;
+    width: 320px;
    
 }
 .under-window {
     font-family: 'Times New Roman', Times, serif;
     font-size: 22px;
     color: white;
-    margin-left: 88px;
+    margin-left: 105px;
     
 }
 /*Character page start*/
