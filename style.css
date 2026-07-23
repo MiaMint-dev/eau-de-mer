@@ -185,7 +185,6 @@ user-select: none;
     font-size: 23px;
     color: white;
     font-weight: 800;
-    margin-top: 20px;
     height: 50px;
     line-height: 10px;
    
@@ -198,8 +197,7 @@ user-select: none;
     font-family: 'Times New Roman', Times, serif;
     font-size: 23px;
     color: white;
-    font-weight: 800;
-    margin-top: 20px;
+    font-weight: 400;
     height: 50px;
     line-height: 10px
 
