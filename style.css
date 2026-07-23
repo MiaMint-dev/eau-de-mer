@@ -129,8 +129,8 @@ user-select: none;
     width: 111px;
     justify-self: left;
     padding: 10px;
-    margin-left: 50px;
-    margin-bottom: 130px;
+    margin-left: 47px;
+    margin-bottom: 110px;
     background: linear-gradient(
     to bottom left,
  #54a893,
@@ -146,7 +146,7 @@ user-select: none;
  box-shadow: 0 0 9px rgb(23, 69, 83), 0 0 20px rgb(31, 73, 100)
    
 }
-.third-page-menu{
+.about-menu{
     display: block;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -173,34 +173,35 @@ user-select: none;
     );
  box-shadow: 0 0 9px rgb(23, 69, 83), 0 0 20px rgb(31, 73, 100)
 }
-
-.teaser-lines-right{
+.teaser-lines {
     display: block;
-    text-align: center;
-    width: 900px;
     justify-self: center;
+}
+.teaser-lines-right{
+   display: block;
+    width: 900px;
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 23px;
     color: white;
     font-weight: 800;
-    margin-top: 30px;
+    margin-top: 20px;
     height: 50px;
-    line-height: 30px;
+    line-height: 10px;
    
 
 }
 .teaser-lines-left{
     display: block;
-    text-align: center;
     width: 900px;
-    justify-self: center;
+    text-align:  center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 23px;
-    color: black;
-    background-color: white;
-    font-weight: 500;
-    height: 30px;
-    line-height: 30px;
+    color: white;
+    font-weight: 800;
+    margin-top: 20px;
+    height: 50px;
+    line-height: 10px
 
 }
 /*homepage countdown start*/
@@ -208,7 +209,7 @@ user-select: none;
     display:block;
     align-items: center;
     justify-content: center;
-    margin-top: 160px;
+    margin-top: 110px;
     margin-bottom: 120px;
     background-image: url('Media/flower-1.png');
     background-position:30%;
@@ -260,7 +261,7 @@ user-select: none;
      box-shadow: 0 0 9px rgb(95, 150, 123), 0 0 20px rgb(96, 190, 169);
     width: 600px;
     justify-self: center;
-    margin-top: 160px;
+    margin-top: 130px;
     margin-bottom: 40px;   
 }
 
@@ -364,7 +365,7 @@ user-select: none;
     display: grid;
     grid-template-columns: repeat(3, 320px);
     gap: 80px 10%;
-    margin-top: 115px;
+    margin-top: 90px;
     justify-content: center;
     
     
