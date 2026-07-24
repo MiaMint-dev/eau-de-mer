@@ -36,10 +36,10 @@ if (button1) {
         if (track1.paused) {
             stopAllTracks(); 
             track1.play();
-            radioText.textContent = "Now Playing - The ocean is outside your window, enjoy";
+            radioText.textContent = "Now Playing - The ocean is outside your window";
         } else{
             track1.pause();
-            radioText.textContent = "Welcome To Eau De Mer FM * Tune into your preferred preset";
+            radioText.textContent = "Welcome To MAD FM * Tune into your preferred preset";
         }
         
    })};
@@ -49,11 +49,11 @@ button2.addEventListener('click', () => {
             if (track2.paused)  {
                 stopAllTracks();
                 track2.play();
-                radioText.textContent = "Now Playing - Avalon's last walk in the island";
+                radioText.textContent = "Now Playing - The ocean is outside your window";
     
         }else {
             track2.pause();
-            radioText.textContent = "Welcome To Eau De Mer FM * Tune into your preferred preset";
+            radioText.textContent = "Welcome To MAD FM * Tune into your preferred preset";
         }});            
 }
 
@@ -62,10 +62,10 @@ button3.addEventListener('click', () => {
     if (track3.paused) {
         stopAllTracks();
         track3.play();
-        radioText.textContent = "Now Playing - This track is still unnamed";
+        radioText.textContent = "Now Playing - The ocean is outside your window";
     }else {
         track3.pause();
-        radioText.textContent = "Welcome to Eau De Mer * Tune into your preffered preset";
+        radioText.textContent = "Welcome to MAD FM * Tune into your preffered preset";
     }});
 }
 
